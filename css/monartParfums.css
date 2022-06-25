@@ -1,0 +1,115 @@
+
+* {
+   margin: 0px;
+   padding: 0px;
+}
+body{
+   font-size: 100%;
+}
+.cont{
+   margin:70px 60px;
+   display: flex;
+   justify-content: space-between;
+ }
+
+
+
+/* Slider left */
+.slider-left {
+   width: 300px;
+   height: 300px;
+   margin: 20px auto;
+   overflow: hidden;
+}
+.slider-line-left {
+   width: 1024px;
+   height: 256px;
+   display: flex;
+   
+   position: relative;
+   left: 0;
+   transition: all ease 1s;
+}
+.slider-line-left img{
+   width: 30%;
+   height: 20%;
+   margin: auto;
+}
+.leftPicture1 img{
+   
+   height: 300px;
+}
+
+/*slider right*/
+.slider-right {
+   width: 300px;
+   height: 800px;
+   margin: 20px auto;
+   overflow: hidden;
+}
+.slider-line-right {
+   width: 300px;
+   height: 1024px;
+   
+   
+  /* position: relative;*/
+   right: 0;
+   transition: all ease 1s;
+}
+.slider-line-right img{
+   width: 30%;
+   height: 20%;
+   margin: auto;
+}
+.rightPicture img{
+   width: 300px;
+   height: 300px;
+}
+
+
+/**/
+.centerPage{
+   padding: 0px 7%;
+}
+.cpone {
+   text-align: right; 
+   font-size:30px;
+   margin-bottom: 0px;
+}
+.centerPage h2,p{
+   margin-bottom: 50px;
+}
+
+
+.inputs{
+   border-top: 1px solid black;
+   display: flex;
+   justify-content: space-between;
+}
+.inputs p{
+   margin-top: 1%;
+   
+}
+.inputs div{
+   margin-top: 1%;
+}
+.button {
+   display: flex;
+   justify-content: space-between;
+   margin: 5%;
+}
+.button button{
+   width: 201px;
+}
+.button button:hover{
+   cursor: pointer;
+   background: #888488;
+}
+.button input {
+   width: 50px;
+}
+.button button, .button input{
+   border:none;
+   height: 33px;
+   background: #ADA6AB;
+}
